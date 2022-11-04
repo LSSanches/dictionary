@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./App.css";
 import logo from "./logo.png";
 import SearchEngine from "./SearchEngine";
@@ -19,7 +21,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/laurassanches"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             LSanches
           </a>
@@ -27,7 +29,7 @@ export default function App() {
           <a
             href="https://github.com/LSSanches/dictionary"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>{" "}
@@ -35,7 +37,7 @@ export default function App() {
           <a
             href="https://dictionarybylaura.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
