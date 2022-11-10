@@ -2,9 +2,15 @@
   max-width: 200px;
   display: block;
   margin: 0 auto;
-  }
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto -10px;
+}
 
 footer {
   text-align: center;
   font-size: 12px;
+  margin: -15px auto 20px;
 }

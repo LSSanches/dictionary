@@ -26,10 +26,12 @@ export default function SearchEngine() {
 
   return (
     <div className="SearchEngine">
+      <h2>What word do you want to look up?</h2>
       <form onSubmit={search}>
         <input type="search" placeholder="Type here" onChange={handleKeyword} />
         <input type="submit" value="Search" />
       </form>
+      <div className="hint">suggested words: sunset, yoga, forest.. </div>
       <Results results={results} />
     </div>
   );
