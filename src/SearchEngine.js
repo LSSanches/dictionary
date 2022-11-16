@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import Results from "./Results.js";
+import Photos from "./Photos.js";
+
 import "./SearchEngine.css";
 
 export default function SearchEngine() {
   let [word, setWord] = useState("");
   let [results, setResults] = useState(null);
+  let [photos, setPhotos] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data[0]);
@@ -33,6 +36,7 @@ export default function SearchEngine() {
       </form>
       <div className="hint">suggested words: sunset, yoga, forest.. </div>
       <Results results={results} />
+      <Photos photos={photos} />
     </div>
   );
 }
