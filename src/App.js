@@ -13,7 +13,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <SearchEngine />
+          <SearchEngine default="hello" />
         </main>
         <br />
         <hr />

@@ -1,17 +1,16 @@
 .App-logo {
-  max-width: 200px;
+  max-width: 250px;
   display: block;
   margin: 0 auto;
 }
 
 .App {
-  max-width: 100%;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 20px auto;
 }
 
 h1 {
   text-align: center;
-  margin: 30px auto -10px;
 }
 
 footer {

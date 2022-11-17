@@ -1,26 +1,21 @@
-.SearchEngine {
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  max-width: 70%;
-}
-
-.Results h2 {
-  font-size: 36px;
-  text-align: center;
-}
-
 .SearchEngine section {
-  background-color: #e7eaf6;
-  padding: 10px;
-  border-radius: 4px;
+  background: #e7eaf6;
+  padding: 30px;
+  border-radius: 6px;
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
-  margin: 25px auto 0 auto;
-  text-align: left;
-  max-width: 90%;
+  margin: 20px 0;
+}
+
+.SearchEngine input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
 }
 
 .SearchEngine .hint {
   font-size: 11px;
   margin-top: 5px;
 }
+

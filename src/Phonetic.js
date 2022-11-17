@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   return (
@@ -12,10 +13,12 @@ export default function Phonetic(props) {
         >
           <i class="fa-solid fa-play"></i>
         </a>
-      )}{" "}
-      {props.phonetic.text &&
-        props.phonetic.text.length > 0 &&
-        props.phonetic.text}
+      )}
+      <span className="text">
+        {props.phonetic.text &&
+          props.phonetic.text.length > 0 &&
+          props.phonetic.text}
+      </span>
     </div>
   );
 }
